@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A754C031FC5200500C65320 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A754C021FC5200500C65320 /* AppDelegate.swift */; };
+		1A754C051FC5200500C65320 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A754C041FC5200500C65320 /* ViewController.swift */; };
+		1A754C081FC5200500C65320 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A754C061FC5200500C65320 /* Main.storyboard */; };
+		1A754C0B1FC5200500C65320 /* TNDropDown.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1A754C091FC5200500C65320 /* TNDropDown.xcdatamodeld */; };
+		1A754C0D1FC5200500C65320 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A754C0C1FC5200500C65320 /* Assets.xcassets */; };
+		1A754C101FC5200500C65320 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A754C0E1FC5200500C65320 /* LaunchScreen.storyboard */; };
+		1A754C1B1FC5200600C65320 /* TNDropDownTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A754C1A1FC5200600C65320 /* TNDropDownTests.swift */; };
+		1A754C261FC5200600C65320 /* TNDropDownUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A754C251FC5200600C65320 /* TNDropDownUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1A754C171FC5200600C65320 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A754BF71FC5200500C65320 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A754BFE1FC5200500C65320;
+			remoteInfo = TNDropDown;
+		};
+		1A754C221FC5200600C65320 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A754BF71FC5200500C65320 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A754BFE1FC5200500C65320;
+			remoteInfo = TNDropDown;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A754BFF1FC5200500C65320 /* TNDropDown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TNDropDown.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A754C021FC5200500C65320 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1A754C041FC5200500C65320 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1A754C071FC5200500C65320 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1A754C0A1FC5200500C65320 /* TNDropDown.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TNDropDown.xcdatamodel; sourceTree = "<group>"; };
+		1A754C0C1FC5200500C65320 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A754C0F1FC5200500C65320 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1A754C111FC5200500C65320 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A754C161FC5200600C65320 /* TNDropDownTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TNDropDownTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A754C1A1FC5200600C65320 /* TNDropDownTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TNDropDownTests.swift; sourceTree = "<group>"; };
+		1A754C1C1FC5200600C65320 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A754C211FC5200600C65320 /* TNDropDownUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TNDropDownUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A754C251FC5200600C65320 /* TNDropDownUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TNDropDownUITests.swift; sourceTree = "<group>"; };
+		1A754C271FC5200600C65320 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A754BFC1FC5200500C65320 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A754C131FC5200600C65320 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A754C1E1FC5200600C65320 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A754BF61FC5200500C65320 = {
+			isa = PBXGroup;
+			children = (
+				1A754C011FC5200500C65320 /* TNDropDown */,
+				1A754C191FC5200600C65320 /* TNDropDownTests */,
+				1A754C241FC5200600C65320 /* TNDropDownUITests */,
+				1A754C001FC5200500C65320 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A754C001FC5200500C65320 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A754BFF1FC5200500C65320 /* TNDropDown.app */,
+				1A754C161FC5200600C65320 /* TNDropDownTests.xctest */,
+				1A754C211FC5200600C65320 /* TNDropDownUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A754C011FC5200500C65320 /* TNDropDown */ = {
+			isa = PBXGroup;
+			children = (
+				1A754C021FC5200500C65320 /* AppDelegate.swift */,
+				1A754C041FC5200500C65320 /* ViewController.swift */,
+				1A754C061FC5200500C65320 /* Main.storyboard */,
+				1A754C0C1FC5200500C65320 /* Assets.xcassets */,
+				1A754C0E1FC5200500C65320 /* LaunchScreen.storyboard */,
+				1A754C111FC5200500C65320 /* Info.plist */,
+				1A754C091FC5200500C65320 /* TNDropDown.xcdatamodeld */,
+			);
+			path = TNDropDown;
+			sourceTree = "<group>";
+		};
+		1A754C191FC5200600C65320 /* TNDropDownTests */ = {
+			isa = PBXGroup;
+			children = (
+				1A754C1A1FC5200600C65320 /* TNDropDownTests.swift */,
+				1A754C1C1FC5200600C65320 /* Info.plist */,
+			);
+			path = TNDropDownTests;
+			sourceTree = "<group>";
+		};
+		1A754C241FC5200600C65320 /* TNDropDownUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1A754C251FC5200600C65320 /* TNDropDownUITests.swift */,
+				1A754C271FC5200600C65320 /* Info.plist */,
+			);
+			path = TNDropDownUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A754BFE1FC5200500C65320 /* TNDropDown */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A754C2A1FC5200600C65320 /* Build configuration list for PBXNativeTarget "TNDropDown" */;
+			buildPhases = (
+				1A754BFB1FC5200500C65320 /* Sources */,
+				1A754BFC1FC5200500C65320 /* Frameworks */,
+				1A754BFD1FC5200500C65320 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TNDropDown;
+			productName = TNDropDown;
+			productReference = 1A754BFF1FC5200500C65320 /* TNDropDown.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1A754C151FC5200600C65320 /* TNDropDownTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A754C2D1FC5200600C65320 /* Build configuration list for PBXNativeTarget "TNDropDownTests" */;
+			buildPhases = (
+				1A754C121FC5200600C65320 /* Sources */,
+				1A754C131FC5200600C65320 /* Frameworks */,
+				1A754C141FC5200600C65320 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A754C181FC5200600C65320 /* PBXTargetDependency */,
+			);
+			name = TNDropDownTests;
+			productName = TNDropDownTests;
+			productReference = 1A754C161FC5200600C65320 /* TNDropDownTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1A754C201FC5200600C65320 /* TNDropDownUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A754C301FC5200600C65320 /* Build configuration list for PBXNativeTarget "TNDropDownUITests" */;
+			buildPhases = (
+				1A754C1D1FC5200600C65320 /* Sources */,
+				1A754C1E1FC5200600C65320 /* Frameworks */,
+				1A754C1F1FC5200600C65320 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A754C231FC5200600C65320 /* PBXTargetDependency */,
+			);
+			name = TNDropDownUITests;
+			productName = TNDropDownUITests;
+			productReference = 1A754C211FC5200600C65320 /* TNDropDownUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A754BF71FC5200500C65320 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Tung Nguyen";
+				TargetAttributes = {
+					1A754BFE1FC5200500C65320 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					1A754C151FC5200600C65320 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1A754BFE1FC5200500C65320;
+					};
+					1A754C201FC5200600C65320 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1A754BFE1FC5200500C65320;
+					};
+				};
+			};
+			buildConfigurationList = 1A754BFA1FC5200500C65320 /* Build configuration list for PBXProject "TNDropDown" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A754BF61FC5200500C65320;
+			productRefGroup = 1A754C001FC5200500C65320 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A754BFE1FC5200500C65320 /* TNDropDown */,
+				1A754C151FC5200600C65320 /* TNDropDownTests */,
+				1A754C201FC5200600C65320 /* TNDropDownUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A754BFD1FC5200500C65320 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A754C101FC5200500C65320 /* LaunchScreen.storyboard in Resources */,
+				1A754C0D1FC5200500C65320 /* Assets.xcassets in Resources */,
+				1A754C081FC5200500C65320 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A754C141FC5200600C65320 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A754C1F1FC5200600C65320 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A754BFB1FC5200500C65320 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A754C051FC5200500C65320 /* ViewController.swift in Sources */,
+				1A754C0B1FC5200500C65320 /* TNDropDown.xcdatamodeld in Sources */,
+				1A754C031FC5200500C65320 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A754C121FC5200600C65320 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A754C1B1FC5200600C65320 /* TNDropDownTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A754C1D1FC5200600C65320 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A754C261FC5200600C65320 /* TNDropDownUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A754C181FC5200600C65320 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A754BFE1FC5200500C65320 /* TNDropDown */;
+			targetProxy = 1A754C171FC5200600C65320 /* PBXContainerItemProxy */;
+		};
+		1A754C231FC5200600C65320 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A754BFE1FC5200500C65320 /* TNDropDown */;
+			targetProxy = 1A754C221FC5200600C65320 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1A754C061FC5200500C65320 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A754C071FC5200500C65320 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1A754C0E1FC5200500C65320 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A754C0F1FC5200500C65320 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A754C281FC5200600C65320 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1A754C291FC5200600C65320 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A754C2B1FC5200600C65320 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TNDropDown/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TungNguyen.TNDropDown;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1A754C2C1FC5200600C65320 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TNDropDown/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TungNguyen.TNDropDown;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1A754C2E1FC5200600C65320 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TNDropDownTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TungNguyen.TNDropDownTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TNDropDown.app/TNDropDown";
+			};
+			name = Debug;
+		};
+		1A754C2F1FC5200600C65320 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TNDropDownTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TungNguyen.TNDropDownTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TNDropDown.app/TNDropDown";
+			};
+			name = Release;
+		};
+		1A754C311FC5200600C65320 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TNDropDownUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TungNguyen.TNDropDownUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TNDropDown;
+			};
+			name = Debug;
+		};
+		1A754C321FC5200600C65320 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TNDropDownUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TungNguyen.TNDropDownUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TNDropDown;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A754BFA1FC5200500C65320 /* Build configuration list for PBXProject "TNDropDown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A754C281FC5200600C65320 /* Debug */,
+				1A754C291FC5200600C65320 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A754C2A1FC5200600C65320 /* Build configuration list for PBXNativeTarget "TNDropDown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A754C2B1FC5200600C65320 /* Debug */,
+				1A754C2C1FC5200600C65320 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A754C2D1FC5200600C65320 /* Build configuration list for PBXNativeTarget "TNDropDownTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A754C2E1FC5200600C65320 /* Debug */,
+				1A754C2F1FC5200600C65320 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A754C301FC5200600C65320 /* Build configuration list for PBXNativeTarget "TNDropDownUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A754C311FC5200600C65320 /* Debug */,
+				1A754C321FC5200600C65320 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1A754C091FC5200500C65320 /* TNDropDown.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1A754C0A1FC5200500C65320 /* TNDropDown.xcdatamodel */,
+			);
+			currentVersion = 1A754C0A1FC5200500C65320 /* TNDropDown.xcdatamodel */;
+			path = TNDropDown.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1A754BF71FC5200500C65320 /* Project object */;
+}
