@@ -15,6 +15,7 @@
 		1A754C101FC5200500C65320 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A754C0E1FC5200500C65320 /* LaunchScreen.storyboard */; };
 		1A754C1B1FC5200600C65320 /* TNDropDownTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A754C1A1FC5200600C65320 /* TNDropDownTests.swift */; };
 		1A754C261FC5200600C65320 /* TNDropDownUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A754C251FC5200600C65320 /* TNDropDownUITests.swift */; };
+		1A754C341FC5202800C65320 /* TNDropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A754C331FC5202800C65320 /* TNDropDown.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		1A754C211FC5200600C65320 /* TNDropDownUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TNDropDownUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A754C251FC5200600C65320 /* TNDropDownUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TNDropDownUITests.swift; sourceTree = "<group>"; };
 		1A754C271FC5200600C65320 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A754C331FC5202800C65320 /* TNDropDown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TNDropDown.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				1A754C021FC5200500C65320 /* AppDelegate.swift */,
 				1A754C041FC5200500C65320 /* ViewController.swift */,
+				1A754C331FC5202800C65320 /* TNDropDown.swift */,
 				1A754C061FC5200500C65320 /* Main.storyboard */,
 				1A754C0C1FC5200500C65320 /* Assets.xcassets */,
 				1A754C0E1FC5200500C65320 /* LaunchScreen.storyboard */,
@@ -264,6 +267,7 @@
 			files = (
 				1A754C051FC5200500C65320 /* ViewController.swift in Sources */,
 				1A754C0B1FC5200500C65320 /* TNDropDown.xcdatamodeld in Sources */,
+				1A754C341FC5202800C65320 /* TNDropDown.swift in Sources */,
 				1A754C031FC5200500C65320 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

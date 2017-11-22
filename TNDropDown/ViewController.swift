@@ -9,17 +9,24 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var dropDown: TNDropDown!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        dropDown.dataSource = ["123","234","345","456","345","456"]
+        dropDown.lableTitle.text = dropDown.dataSource[2]
+        dropDown.delegateTNDropDown = self
+ 
     }
+}
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+extension ViewController: TNDropDwonDeletgate{
+    func didSelectRow(row: Int) {
+        UIView.animate(withDuration: 0.45) {
+            self.dropDown.lableTitle.text = self.dropDown.dataSource[row]
+        }
     }
-
-
 }
 
